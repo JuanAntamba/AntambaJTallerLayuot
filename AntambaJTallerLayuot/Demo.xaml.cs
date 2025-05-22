@@ -6,4 +6,10 @@ public partial class Demo : ContentPage
 	{
 		InitializeComponent();
 	}
+    
+    private void IrAMainPage_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PopAsync();
+
+    }
 }

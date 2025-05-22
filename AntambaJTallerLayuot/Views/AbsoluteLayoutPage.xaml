@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AntambaJTallerLayuot.AbsoluteLayoutPage"
+             Title="AbsoluteLayout">
+
+    <AbsoluteLayout>
+
+        <Image Source="https://yt3.googleusercontent.com/s5hlNKKDDQWjFGzYNnh8UeOW2j2w6id-cZGx7GdAA3d5Fu7zEi7ZMXEyslysuQUKigXNxtAB=s900-c-k-c0x00ffffff-no-rj"
+               HorizontalOptions="Center"
+               AbsoluteLayout.LayoutBounds="0,0,270,270"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        
+        <Button Text="Volver a Grid"
+                Clicked="OnGoToGridClicked"
+                AbsoluteLayout.LayoutBounds="1,1,150,50"
+                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+    </AbsoluteLayout>
+
+</ContentPage>

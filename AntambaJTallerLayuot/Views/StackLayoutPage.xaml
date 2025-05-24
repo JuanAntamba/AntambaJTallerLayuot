@@ -4,15 +4,20 @@
              x:Class="AntambaJTallerLayuot.StackLayoutPage"
              Title="StackLayout">
 
-    <StackLayout Padding="20">
+    <StackLayout Padding="20" HorizontalOptions="Center" VerticalOptions="Center">
         <Label Text="Juan" 
-               FontSize="30"/>
+               FontSize="30"
+               HorizontalTextAlignment="Center"/>
         <Label Text="Carlos" 
-               FontSize="23"/>
+               FontSize="23"
+               HorizontalTextAlignment="Center"/>
         <Label Text="Antamba" 
-               FontSize="14"/>
+               FontSize="14"
+               HorizontalTextAlignment="Center"/>
         <Button Text="Ir a FlexLayout" 
-                Clicked="OnGoToFlexClicked"/>
+                Clicked="OnGoToFlexClicked"
+                HorizontalOptions="Center"/>
     </StackLayout>
 
 </ContentPage>
+

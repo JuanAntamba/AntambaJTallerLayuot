@@ -6,16 +6,31 @@
 
     <AbsoluteLayout>
 
-        <Image Source="https://yt3.googleusercontent.com/s5hlNKKDDQWjFGzYNnh8UeOW2j2w6id-cZGx7GdAA3d5Fu7zEi7ZMXEyslysuQUKigXNxtAB=s900-c-k-c0x00ffffff-no-rj"
-               HorizontalOptions="Center"
-               AbsoluteLayout.LayoutBounds="0,0,270,270"
-               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Image Source="https://www.aficioncentral.com/uploads/futbol-ecuatoriano/Comunicados-clubes/redaccion-comunicado-liga-de-quito.jpg"
+               AbsoluteLayout.LayoutBounds="0.5,0,1,200"
+               AbsoluteLayout.LayoutFlags="WidthProportional,PositionProportional"
+               Aspect="AspectFill" />
 
-        
+       
+        <ScrollView AbsoluteLayout.LayoutBounds="0,200,1,0.7"
+                    AbsoluteLayout.LayoutFlags="WidthProportional,HeightProportional">
+            <Label Text="Liga Deportiva Universitaria de Quito (LDU) es uno de los clubes de fútbol más importantes y populares de Ecuador. Fundado en 1930, el club ha ganado múltiples títulos nacionales e internacionales, incluyendo la Copa Libertadores en 2008, siendo el primer club ecuatoriano en conseguirlo. Su estadio, la Casa Blanca, es uno de los más modernos del país y su afición es considerada una de las más apasionadas. 
+
+Liga ha representado a Ecuador con orgullo en torneos como la Copa Sudamericana, la Recopa Sudamericana y el Mundial de Clubes. El equipo se caracteriza por su disciplina, su cantera de jóvenes talentos y su estilo de juego aguerrido.
+
+A lo largo de los años, ha contado con jugadores históricos como Alex Aguinaga, Patricio Urrutia, Edison Méndez, entre otros, que dejaron una huella imborrable en el fútbol ecuatoriano.
+
+Hoy en día, LDU continúa siendo una institución modelo, tanto en lo deportivo como en lo institucional, con una gran base de hinchas en todo el país."
+                   FontSize="16"
+                   Padding="20"
+                   TextColor="Black" />
+        </ScrollView>
+
         <Button Text="Volver a Grid"
                 Clicked="OnGoToGridClicked"
                 AbsoluteLayout.LayoutBounds="1,1,150,50"
                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
     </AbsoluteLayout>
 
 </ContentPage>

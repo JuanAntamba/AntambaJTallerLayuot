@@ -5,13 +5,24 @@
              Title="GridLayout">
 
     <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
-        <BoxView Color="Red" Grid.Row="0" Grid.Column="0"/>
-        <BoxView Color="Blue" Grid.Row="0" Grid.Column="1"/>
-        <BoxView Color="Green" Grid.Row="1" Grid.Column="0"/>
-        <StackLayout Grid.Row="1" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center">
-            <BoxView Color="Yellow" HeightRequest="100" WidthRequest="100"/>
-            <Button Text="Ir a StackLayout" Clicked="OnGoToStackClicked"/>
-        </StackLayout>
+
+        <BoxView Color="Red" 
+                 Grid.Row="0" 
+                 Grid.Column="0"/>
+        <BoxView Color="Blue" 
+                 Grid.Row="0" 
+                 Grid.Column="1"/>
+        <BoxView Color="Green" 
+                 Grid.Row="1" 
+                 Grid.Column="0"/>
+        <Grid Grid.Row="1" Grid.Column="1">
+            <BoxView Color="Yellow"/>
+            <Button Text="Ir a StackLayout"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="OnGoToStackClicked"/>
+        </Grid>
+
     </Grid>
 
 </ContentPage>

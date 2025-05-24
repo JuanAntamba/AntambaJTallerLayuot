@@ -1,18 +1,44 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?> 
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AntambaJTallerLayuot.FlexLayoutPage"
              Title="FlexLayout">
 
-    <StackLayout Padding="20">
-        <FlexLayout Direction="Row" Wrap="Wrap" JustifyContent="Start">
-            <Button Text="Botón 1" WidthRequest="100" HeightRequest="50"/>
-            <Button Text="Botón 2" WidthRequest="100" HeightRequest="50"/>
-            <Button Text="Botón 3" WidthRequest="100" HeightRequest="50"/>
-            <Button Text="Botón 4" WidthRequest="100" HeightRequest="50"/>
+    <StackLayout Padding="20" VerticalOptions="Center">
+
+        <FlexLayout Direction="Row"
+                    Wrap="Wrap"
+                    JustifyContent="Center"
+                    AlignItems="Center"
+                    AlignContent="Start"
+                    Margin="0,0,0,20">
+
+            <Button Text="Botón 1"
+                    WidthRequest="100"
+                    HeightRequest="50"
+                    Margin="5"/>
+
+            <Button Text="Botón 2"
+                    WidthRequest="100"
+                    HeightRequest="50"
+                    Margin="5"/>
+
+            <Button Text="Botón 3"
+                    WidthRequest="100"
+                    HeightRequest="50"
+                    Margin="5"/>
+
+            <Button Text="Botón 4"
+                    WidthRequest="100"
+                    HeightRequest="50"
+                    Margin="5"/>
+
         </FlexLayout>
 
-        <Button Text="Ir a AbsoluteLayout" Clicked="OnGoToAbsoluteClicked" Margin="0,20,0,0"/>
+        <Button Text="Ir a AbsoluteLayout"
+                Clicked="OnGoToAbsoluteClicked"
+                HorizontalOptions="Center"/>
+
     </StackLayout>
 
 </ContentPage>

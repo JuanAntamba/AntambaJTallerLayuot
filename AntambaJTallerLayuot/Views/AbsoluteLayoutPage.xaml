@@ -6,21 +6,29 @@
 
     <AbsoluteLayout>
 
-        <Image Source="https://www.aficioncentral.com/uploads/futbol-ecuatoriano/Comunicados-clubes/redaccion-comunicado-liga-de-quito.jpg"
-               AbsoluteLayout.LayoutBounds="0.5,0,1,200"
-               AbsoluteLayout.LayoutFlags="WidthProportional,PositionProportional"
-               Aspect="AspectFill" />
+        <Image Source="https://www.ceroacero.es/img/logos/equipas/2361_imgbank_1688131581.png"
+       AbsoluteLayout.LayoutBounds="0.5,0,1,200"
+       AbsoluteLayout.LayoutFlags="WidthProportional,PositionProportional"
+       Aspect="AspectFit" />
 
        
         <ScrollView AbsoluteLayout.LayoutBounds="0,200,1,0.7"
                     AbsoluteLayout.LayoutFlags="WidthProportional,HeightProportional">
-            <Label Text="Liga Deportiva Universitaria de Quito (LDU) es uno de los clubes de fútbol más importantes y populares de Ecuador. Fundado en 1930, el club ha ganado múltiples títulos nacionales e internacionales, incluyendo la Copa Libertadores en 2008, siendo el primer club ecuatoriano en conseguirlo. Su estadio, la Casa Blanca, es uno de los más modernos del país y su afición es considerada una de las más apasionadas. 
+            <Label Text="Liga Deportiva Universitaria de Quito, conocida comúnmente como LDU o Liga de Quito, es uno de los clubes más importantes, exitosos y emblemáticos del fútbol ecuatoriano. Fundado el 11 de enero de 1930, como un club universitario vinculado a la Universidad Central del Ecuador, LDU ha logrado trascender sus orígenes académicos para convertirse en una institución deportiva de renombre nacional e internacional.
 
-Liga ha representado a Ecuador con orgullo en torneos como la Copa Sudamericana, la Recopa Sudamericana y el Mundial de Clubes. El equipo se caracteriza por su disciplina, su cantera de jóvenes talentos y su estilo de juego aguerrido.
+Desde sus inicios, Liga ha representado no solo a la ciudad de Quito, sino también al país, con una identidad basada en el trabajo disciplinado, el compromiso con la juventud y la constante búsqueda de la excelencia deportiva. A lo largo de su historia, ha cosechado múltiples campeonatos nacionales y ha sido pionera en alcanzar logros internacionales que ningún otro equipo ecuatoriano ha conseguido.
 
-A lo largo de los años, ha contado con jugadores históricos como Alex Aguinaga, Patricio Urrutia, Edison Méndez, entre otros, que dejaron una huella imborrable en el fútbol ecuatoriano.
+El punto más alto en la historia del club llegó en 2008, cuando LDU Quito se consagró campeón de la Copa Libertadores de América, convirtiéndose en el primer equipo ecuatoriano en lograr este prestigioso título continental. Bajo la dirección técnica de Edgardo Bauza y con figuras como José Francisco Cevallos, Patricio Urrutia, Joffre Guerrón y Claudio Bieler, Liga superó a equipos históricos de Sudamérica y culminó su gesta venciendo a Fluminense en una dramática final.
 
-Hoy en día, LDU continúa siendo una institución modelo, tanto en lo deportivo como en lo institucional, con una gran base de hinchas en todo el país."
+A ese histórico triunfo le siguieron la obtención de la Recopa Sudamericana en 2009 y 2010, y la Copa Sudamericana en 2009, consolidando a Liga como una potencia regional. Además, tuvo una destacada participación en el Mundial de Clubes de la FIFA, llegando a la final en 2008, donde enfrentó al poderoso Manchester United.
+
+El club juega de local en el Estadio Rodrigo Paz Delgado, conocido como “La Casa Blanca”, uno de los escenarios deportivos más modernos y funcionales del país. Este estadio ha sido testigo de las gestas más memorables del club y es un símbolo de orgullo para los hinchas albos.
+
+Liga también ha sido semillero de grandes futbolistas ecuatorianos como Alex Aguinaga, Edison Méndez, Franklin Salas, Néicer Reasco y Jefferson Montero, entre otros, muchos de los cuales han sido parte de la selección nacional.
+
+Más allá de lo deportivo, Liga de Quito es una institución con una sólida estructura administrativa y un fuerte compromiso con la responsabilidad social. Su influencia en la comunidad y su dedicación a la formación de jóvenes talentos reflejan un modelo institucional ejemplar en el fútbol ecuatoriano.
+
+En la actualidad, LDU continúa compitiendo en lo más alto del fútbol nacional e internacional, con una gran base de hinchas que llenan los estadios y apoyan al equipo con fervor incondicional. Su legado, historia y visión la consolidan como una institución que no solo ha hecho historia, sino que está llamada a seguir escribiéndola en los años venideros."
                    FontSize="16"
                    Padding="20"
                    TextColor="Black" />
